@@ -1,0 +1,80 @@
+.user_info_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_info_header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 0.2px groove #c9ccd1;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.user_info_header h1{
+    flex-grow: 1;
+    margin: 1rem ;
+    transform: translateX(10px);
+}
+
+.user_info_header a{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #c9ccd1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-10px);
+}
+
+.option_footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    border-top: 0.2px groove #c9ccd1;
+    justify-content: space-between;
+}
+
+.option_footer .h1{
+    margin: 0;
+}
+
+.option_footer .options{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.option_footer a{
+    background-color:  #dddfe2;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.option_footer i{
+    transform: translateY(1.2px);
+}
+.red_button {
+    background-color: #f87979;
+}
+
+.green_button {
+    background-color: rgba(144, 255, 144, 0.57);
+}

@@ -1,0 +1,8 @@
+.post_container_modifier{
+    width:50%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

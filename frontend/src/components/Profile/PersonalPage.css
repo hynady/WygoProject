@@ -1,0 +1,265 @@
+/* Upmost class */
+.supercontainer{
+    background-color: #e9ebee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+.header_section
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-wrap: wrap;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+
+.background_container
+{
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    background-color: #dddfe2;
+    height: 25rem;
+    border-radius: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.profile_container
+{
+    display: flex;
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.avatar
+{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 0.25rem solid #fff;
+    transform: translateY(-2rem);
+}
+
+.avatar img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.profile_info
+{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    align-content: center;
+}
+
+.profile_info h1 {
+    margin-bottom: 0;
+}
+
+.favor{
+    margin-top: 0.2rem;
+    display: flex;
+    gap:0.3rem;
+}
+
+.favor i{
+    transform: translateY(5px);
+}
+
+.edit_profile
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.edit_profile a{
+    background-color:  #dddfe2;
+    border-radius: 0.3rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.edit_profile a div{
+    margin-bottom: 0.15rem;
+}
+
+.breakline{
+    border: 0.2px groove #c9ccd1;
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;
+    transform: translateY(-20px);
+}
+
+.profile_tabs
+{
+    margin-left: 14.5rem;
+    margin-right: 14.5rem;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Contents */
+
+.content_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14.5rem;
+    margin-right: 16.5rem;
+    margin-top: 2rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.introduce{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.2rem;
+    gap: 1rem;
+    height: fit-content;
+    margin-left: 14.5rem;
+}
+
+.introduce h2 {
+    margin-bottom: 0;
+    margin-top: 0.1rem;
+}
+
+.introduce .bio {
+    text-align: center;
+}
+
+.introduce .text {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post_and_posting{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 14.5rem;
+    font-size: 1.1rem;
+}
+
+.post_and_posting_tab{
+    display: flex;
+    gap: 1rem;
+}
+
+.updownvote_tab{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 14.5rem;
+    margin-right: 11.5rem;
+}
+
+.updownvote_content{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0.2rem;
+}
+
+.updownvote_card{
+    display: flex;
+    border-radius: 0.5rem;
+    border: 1px groove #dddfe2;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.updownvote_avatar{
+    width: 5rem;
+    height: 5rem;
+    min-width: 5rem;
+}
+
+.updownvote_avatar img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.updownvote_info{
+    display: flex;
+    align-items: center;
+    min-width: 10rem;
+    font-size: 0.9rem;
+}
+
+.updownvote_name{
+    font-weight:  bold;
+}
+
+.updownvote_more_button{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.posting_input_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.posting_input {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.upvoted{
+    color : green;
+}
+
+.not_updownvoted{
+    color: grey;
+}
+
+.downvoted{
+    color: red;
+}
