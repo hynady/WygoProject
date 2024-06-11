@@ -2,7 +2,9 @@
 
 ## Giới thiệu
 Đây là một dự án về việc xây dựng và phát triển mạng xã hội để chia sẻ các địa điểm nổi bật. Dự án được thực hiện bởi nhóm sinh viên từ Trường Đại học Sư phạm Kỹ thuật TP. Hồ Chí Minh trong khuôn khổ môn học Công nghệ Phần mềm Hướng Đối tượng.
-
+![image](https://github.com/hynady/WygoProject/assets/170067065/a94d3fd0-32b2-4957-97b0-5a6f9067b613)
+![image](https://github.com/hynady/WygoProject/assets/170067065/3bdf32a7-b55c-48b2-9642-682cf6a0a89d)
+![image](https://github.com/hynady/WygoProject/assets/170067065/e64ada2a-f686-4d29-90f3-d96873f1c48c)
 ## Mục tiêu
 - Cung cấp một nền tảng để người dùng chia sẻ, đánh giá các địa điểm thú vị.
 - Phát triển một giao diện người dùng thân thiện, dễ sử dụng.
