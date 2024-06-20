@@ -45,14 +45,16 @@ const PostingInput = ({ togglePostingInput }) => {
     }, []);
 
     const firebaseConfig = {
-        apiKey : "AIzaSyDzVEplqgnutPKvGohdq-OVD1pyyPQYHWE" ,
-        authDomain : "wygofirebase.firebaseapp.com" ,
-        databaseURL : "https://wygofirebase-default-rtdb.firebaseio.com" ,
-        projectId : "wygofirebase" ,
-        storageBucket : "wygofirebase.appspot.com" ,
-        messagingSenderId : "116194002232" ,
-        appId : "1:116194002232:web:3e27fdef9a117e0de0adcd"
+      apiKey: "AIzaSyCeq4RfIUEcvNPq8MMsejv6q_LN6tSD1n0",
+      authDomain: "wygofirebase1.firebaseapp.com",
+      databaseURL: "https://wygofirebase1-default-rtdb.firebaseio.com",
+      projectId: "wygofirebase1",
+      storageBucket: "wygofirebase1.appspot.com",
+      messagingSenderId: "881402478138",
+      appId: "1:881402478138:web:3665157e2d88be8bba7f03",
+      measurementId: "G-10QB709120"
     };
+
 
     const app = initializeApp(firebaseConfig);
 
