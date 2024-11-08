@@ -47,10 +47,7 @@
 4. Push lên nhánh (\`git push origin feature/AmazingFeature\`)
 5. Mở một Pull Request
 
-## Giấy phép
-Dự án này được cấp phép dưới giấy phép MIT. Xem file [LICENSE](./LICENSE) để biết thêm chi tiết.
-
-## Tác giả
+## Thành viên thực hiện
 - Nguyễn Văn Thi - 21110306
 - Huỳnh Nam Duy - 21110152
 - Phan Lê Thành Công - 21110146
